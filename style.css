@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+#main{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+    margin: 100vh;
+    display: flex;
+}
+#screen{
+    width: 95%;
+    height: 5%;
+    background-color: blue;
+}
+#buttons{
+    width: 95%;
+    height: 95%;
+    background-color: rgb(255, 221, 0);
+}
+.button{
+    width: 10%;
+}
