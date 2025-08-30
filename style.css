@@ -3,21 +3,41 @@
 }
 #main{
     width: 500px;
-    height: 500px;
-    background-color: rgb(255, 0, 0);
+    height: 750px;
+    background-color: rgb(131, 131, 131);
     margin: 100vh;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }
 #screen{
-    width: 95%;
-    height: 5%;
-    background-color: blue;
+    width: 89.5%;
+    height: 112px;
+    background-color: rgb(182, 182, 239);
+    border-radius: 15px;
 }
 #buttons{
-    width: 95%;
-    height: 95%;
-    background-color: rgb(255, 221, 0);
+    width: 100%;
+    height: 567px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .button{
-    width: 10%;
+    background-color: rgb(83, 83, 129,0.15);
+    border-radius: 50%;
+    margin: 9px;
+    width: 97px;
+    height: 97px;
+}
+.button:hover{
+    width: 100px;
+    height: 100px;
+}
+.button:active{
+    width: 94px;
+    height: 94px;
 }
