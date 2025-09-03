@@ -32,6 +32,7 @@
     margin: 9px;
     width: 97px;
     height: 97px;
+    font-size: larger;
 }
 .button:hover{
     width: 100px;
