@@ -1,11 +1,14 @@
 *{
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 #main{
     width: 500px;
     height: 750px;
     background-color: rgb(131, 131, 131);
-    margin: 100vh;
+    position: fixed;
+    left: 38%;
+    top: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -14,7 +17,7 @@
 }
 #screen{
     width: 89.5%;
-    height: 112px;
+    height: 120px;
     background-color: rgb(182, 182, 239);
     border-radius: 15px;
 }
@@ -26,19 +29,27 @@
     justify-content: center;
     align-items: center;
 }
+.box{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .button{
     background-color: rgb(83, 83, 129,0.15);
+    color: rgb(199, 199, 199);
     border-radius: 50%;
-    margin: 9px;
-    width: 97px;
-    height: 97px;
-    font-size: larger;
+    width: 93%;
+    height: 93%;
+    font-size: 180%;
+    font-weight: 700;
 }
 .button:hover{
-    width: 100px;
-    height: 100px;
+    width: 96%;
+    height: 96%;
 }
 .button:active{
-    width: 94px;
-    height: 94px;
+    width: 89%;
+    height: 89%;
 }
